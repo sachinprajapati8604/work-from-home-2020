@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.mynav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.mynav a{
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    vertical-align: middle;
+    color: white;
+    
+}
+.mynav a:hover{
+    color: blue;
+    background-color: yellow;
+    border-radius: 10px;
+}
